@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    height:800px;
+    width:1200px ;
+}
+body{
+    background-image: url("Images/portrait-animal-field_1048944-25274299.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+.navbar{
+    height: 100px;
+    width: 1200px;
+      
+}
+nav{
+    float: left;
+    margin-left: 20px;
+    padding-top: 50px; 
+}
+.nav ul li a{
+            text-decoration: none;
+}
+.nav ul {
+    list-style-type:none ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.header{
+    padding-top: 90px;
+    text-align: center;
+    height: 50px;
+    width: 1200px; 
+     background-size: cover;
+     
+}
+.paragraph{
+    text-align: center;
+    padding-top: 10px;
+}
+  .button button{
+     margin-left: 550px;
+     margin-top: 50px;
+    background-color: aqua;
+    border-color: aqua;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
